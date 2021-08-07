@@ -50,6 +50,10 @@ SET(PlaneGCS_SRCS
 
 set(HEADERS_PUBLIC
     src/GCS.h
+    src/Constraints.h
+    src/Geo.h
+    src/SubSystem.h
+    src/Util.h
 )
 
 SOURCE_GROUP("${LIBRARY_NAME}" FILES ${PlaneGCS_SRCS})
